@@ -23,3 +23,19 @@ Tags Semânticas:
 - `<nav>` Menu de navegação
 - `<header>` Cabeçalho
 - `<title>` Title que fica na aba do navegador
+
+## CSS
+
+Responsabilidades:
+
+1. Visual
+
+Seletores:
+
+1. Tag (<>)
+2. Class (.)
+3. ID (#)
+
+Propriedades:
+
+- `background-color: #e24647;` Cor de fundo: cor
