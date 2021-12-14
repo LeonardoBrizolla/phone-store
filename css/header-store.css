@@ -1,0 +1,27 @@
+.header-store {
+  color: #fff;
+  overflow: hidden;
+  margin-bottom: 95px;
+}
+
+.title {
+  color: inherit;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  float: left;
+}
+
+.navigation {
+  float: right;
+}
+
+.actions {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 21px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 60px;
+}

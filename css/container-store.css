@@ -1,0 +1,12 @@
+.container-store {
+  background-color: #e24647;
+
+  padding: 60px;
+  width: 80%;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translateX(-50%) translateY(-50%);
+}
