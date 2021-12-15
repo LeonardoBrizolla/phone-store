@@ -1,4 +1,4 @@
-.description-list {
+.description-product {
   width: 600px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
@@ -9,73 +9,62 @@ dd {
   margin-inline-start: 0;
 }
 
-.description-title {
+.description-product > .title {
   font-size: 25px;
   font-weight: normal;
   margin-bottom: 100px;
 }
 
-.description-avaliation {
+.description-product > .avaliation {
   margin-bottom: 28px;
   padding-left: 10px;
 }
 
-.description-avaliation,
+.avaliation,
 .description-delivery,
-.description-delivery-amount,
-.description-price,
-.description-amount {
+.description-price {
   font-size: 20px;
 }
 
-.delivery {
+.description-product > .description-delivery {
   margin-bottom: 26px;
   width: 200px;
   text-align: right;
 }
 
-.description-delivery {
+.description-delivery > .delivery {
   display: inline;
   float: left;
 }
 
-.description-delivery-amount {
-  display: inline;
-}
-
-.price-delivery {
+.description-product > .description-price {
   margin-bottom: 73px;
   width: 200px;
   text-align: right;
 }
 
-.description-price {
+.description-price > .price {
   display: inline;
   float: left;
 }
 
-.description-amount {
-  display: inline;
-  margin-bottom: 73px;
-}
-
-.description-text {
+.description-product > .text {
   font-size: 18px;
   margin-bottom: 35px;
   line-height: 30px;
 }
 
-.description-more {
+.description-product > .more {
   margin-bottom: 100px;
 }
 
-.description-more > a {
+.description-product > .more > .action {
   text-decoration: none;
   color: inherit;
   font-size: 20px;
 }
 
-.description-add-cart,
-.description-buy {
+.description-product > .add-cart,
+.buy {
   display: inline-block;
 }
