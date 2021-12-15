@@ -4,7 +4,7 @@
   margin-bottom: 95px;
 }
 
-.title {
+.header-store > .title {
   color: inherit;
   font-size: 40px;
   font-family: Arial, Helvetica, sans-serif;
@@ -13,11 +13,11 @@
   float: left;
 }
 
-.navigation {
+.header-store > .navigation {
   float: right;
 }
 
-.actions {
+.header-store .actions {
   color: inherit;
   text-decoration: none;
   font-weight: 400;
