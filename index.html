@@ -4,8 +4,18 @@
     <meta charset="utf-8" />
     <title>Phone Store</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="css/container-store.css" />
     <link rel="stylesheet" href="css/header-store.css" />
+    <link rel="stylesheet" href="css/phone.css" />
+    <link rel="stylesheet" href="css/desciption-list.css" />
     <link rel="stylesheet" href="css/button-store.css" />
   </head>
   <body>
@@ -20,8 +30,41 @@
         </nav>
       </header>
       <main>
-        <button class="button-store -add-cart">Adicionar Carrinho</button>
-        <button class="button-store -buy">Comprar</button>
+        <dl class="description-list">
+          <div class="phone">
+            <img
+              class="img-phone"
+              src="assets/fone-1x.png"
+              alt="Headset Vermelho"
+            />
+          </div>
+
+          <dt class="description-title">Fone top, feliz e caro</dt>
+          <dd class="description-avaliation">4.0 (97)</dd>
+          <section class="delivery">
+            <dd class="description-delivery">FRETE</dd>
+            <dd class="description-delivery-amount">C$ 108</dd>
+          </section>
+          <section class="price-delivery">
+            <dd class="description-price">PREÇO</dd>
+            <dd class="description-amount">C$ 340</dd>
+          </section>
+          <dd class="description-text">
+            Fone TOP com um cor feliz que não tem fio. A cor também é algo que
+            impressiona junto com o seu layout moderno! Ele é caro? É! Mas
+            compre que você não vai se arrepender e se você se arrepender pode
+            vender no mercado livre..kkkk
+          </dd>
+          <dd class="description-more">
+            <a href="#">Saber mais...</a>
+          </dd>
+          <dd class="description-add-cart">
+            <button class="button-store -add-cart">Adicionar Carrinho</button>
+          </dd>
+          <dd class="description-buy">
+            <button class="button-store -buy">Comprar</button>
+          </dd>
+        </dl>
       </main>
     </div>
   </body>
