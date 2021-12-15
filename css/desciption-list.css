@@ -20,10 +20,6 @@ dd {
   padding-left: 10px;
 }
 
-.delivery {
-  margin-bottom: 26px;
-}
-
 .description-avaliation,
 .description-delivery,
 .description-delivery-amount,
@@ -32,9 +28,15 @@ dd {
   font-size: 20px;
 }
 
+.delivery {
+  margin-bottom: 26px;
+  width: 200px;
+  text-align: right;
+}
+
 .description-delivery {
-  margin-right: 82px;
   display: inline;
+  float: left;
 }
 
 .description-delivery-amount {
@@ -43,11 +45,13 @@ dd {
 
 .price-delivery {
   margin-bottom: 73px;
+  width: 200px;
+  text-align: right;
 }
 
 .description-price {
   display: inline;
-  margin-right: 82px;
+  float: left;
 }
 
 .description-amount {
