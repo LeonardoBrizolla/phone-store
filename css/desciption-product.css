@@ -1,18 +1,23 @@
 .description-product {
-  width: 600px;
+  width: 700px;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  float: right;
-}
-
-dd {
-  margin-inline-start: 0;
+  vertical-align: middle;
+  display: inline-block;
 }
 
 .description-product > .title {
   font-size: 25px;
   font-weight: normal;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.description-product > .stars {
+  margin-bottom: 25px;
+}
+
+.description-product > .stars > .star {
+  margin-right: 9px;
 }
 
 .description-product > .avaliation {
@@ -52,10 +57,6 @@ dd {
   font-size: 18px;
   margin-bottom: 35px;
   line-height: 30px;
-}
-
-.description-product > .more {
-  margin-bottom: 100px;
 }
 
 .description-product > .more > .action {

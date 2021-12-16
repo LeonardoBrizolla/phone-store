@@ -12,9 +12,11 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/container-store.css" />
     <link rel="stylesheet" href="css/header-store.css" />
-    <link rel="stylesheet" href="css/phone.css" />
+    <link rel="stylesheet" href="css/photo-product.css" />
     <link rel="stylesheet" href="css/desciption-product.css" />
     <link rel="stylesheet" href="css/button-store.css" />
   </head>
@@ -30,16 +32,24 @@
         </nav>
       </header>
       <main>
+        <figure class="photo-product">
+          <img
+            class="phonePNG"
+            src="assets/fone-1x.png"
+            alt="Headset Vermelho"
+          />
+        </figure>
         <dl class="description-product">
-          <div class="phone">
-            <img
-              class="img-phone"
-              src="assets/fone-1x.png"
-              alt="Headset Vermelho"
-            />
+          <dt class="title">Fone top, feliz e caro</dt>
+
+          <div class="stars">
+            <img class="star" src="assets/star-fill.png" alt="Star" />
+            <img class="star" src="assets/star-fill.png" alt="Star" />
+            <img class="star" src="assets/star-fill.png" alt="Star" />
+            <img class="star" src="assets/star-fill.png" alt="Star" />
+            <img class="star" src="assets/star-unfill.png" alt="Star" />
           </div>
 
-          <dt class="title">Fone top, feliz e caro</dt>
           <dd class="avaliation">4.0 (97)</dd>
           <section class="description-delivery">
             <dd class="delivery">FRETE</dd>
@@ -58,13 +68,10 @@
           <dd class="more">
             <a class="action" href="#">Saber mais...</a>
           </dd>
-          <dd class="add-cart">
-            <button class="button-store -add-cart">Adicionar Carrinho</button>
-          </dd>
-          <dd class="buy">
-            <button class="button-store -buy">Comprar</button>
-          </dd>
         </dl>
+
+        <button class="button-store -add-cart">Adicionar Carrinho</button>
+        <button class="button-store -buy">Comprar</button>
       </main>
     </div>
   </body>
