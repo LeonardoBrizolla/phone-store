@@ -12,6 +12,7 @@
   font-weight: 400;
   text-transform: uppercase;
   float: left;
+  cursor: pointer;
 }
 
 .header-store .search {
