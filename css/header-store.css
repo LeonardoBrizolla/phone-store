@@ -44,4 +44,24 @@
   font-size: 21px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 60px;
+  position: relative;
+  padding-bottom: 9px;
+}
+
+.header-store .actions:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom left;
+  transition: transform 200ms ease-out;
+}
+
+.header-store .actions:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
