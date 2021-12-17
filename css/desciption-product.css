@@ -18,6 +18,11 @@
   transform: translateX(-100%);
   left: -47px;
   top: 7px;
+  cursor: pointer;
+}
+
+.description-product > .heart > img:hover {
+  transform: scale(1.2);
 }
 
 .description-product > .stars {
@@ -27,6 +32,10 @@
 .description-product > .stars > .star {
   margin-right: 9px;
   cursor: pointer;
+}
+
+.description-product > .stars > .star:hover {
+  transform: scale(1.2);
 }
 
 .description-product > .avaliation {
