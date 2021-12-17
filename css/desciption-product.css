@@ -4,6 +4,7 @@
   font-family: 'Roboto', sans-serif;
   vertical-align: middle;
   display: inline-block;
+  position: relative;
 }
 
 .description-product > .title {
@@ -13,11 +14,12 @@
 }
 
 .description-product > .stars {
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
 .description-product > .stars > .star {
   margin-right: 9px;
+  cursor: pointer;
 }
 
 .description-product > .avaliation {
@@ -59,7 +61,7 @@
   line-height: 30px;
 }
 
-.description-product > .more > .action {
+.description-product .action {
   text-decoration: none;
   color: inherit;
   font-size: 20px;

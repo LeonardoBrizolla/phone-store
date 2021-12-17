@@ -1,3 +1,8 @@
+.container-buttons {
+  position: absolute;
+  transform: translateY(calc(100% + 25px));
+}
+
 .button-store {
   height: 60px;
   color: #fff;
@@ -12,6 +17,14 @@
   width: 220px;
   box-sizing: border-box;
   margin-right: 38px;
+
+  transition: 0.4s;
+}
+
+.button-store.-add-cart:hover {
+  background-color: #fff;
+  color: #e24647;
+  opacity: 0.9;
 }
 
 .button-store.-buy {
@@ -19,4 +32,12 @@
   width: 200px;
   background-color: #252c41;
   border: none;
+
+  transition: 0.4s;
+}
+
+.button-store.-buy:hover {
+  background-color: #fff;
+  color: #252c41;
+  opacity: 0.9;
 }
