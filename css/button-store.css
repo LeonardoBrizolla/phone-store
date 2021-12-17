@@ -9,6 +9,12 @@
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
+
+  transition: 0.4s;
+}
+
+.button-store:active {
+  transform: scale(0.9);
 }
 
 .button-store.-add-cart {
@@ -17,8 +23,6 @@
   width: 220px;
   box-sizing: border-box;
   margin-right: 38px;
-
-  transition: 0.4s;
 }
 
 .button-store.-add-cart:hover {
@@ -32,12 +36,10 @@
   width: 200px;
   background-color: #252c41;
   border: none;
-
-  transition: 0.4s;
 }
 
 .button-store.-buy:hover {
   background-color: #fff;
-  color: #252c41;
+  color: #e24647;
   opacity: 0.9;
 }
