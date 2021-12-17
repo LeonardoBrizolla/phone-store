@@ -15,7 +15,9 @@
 
 .description-product > .heart {
   position: absolute;
-  transform: translateX(calc(-100% + -47px));
+  transform: translateX(-100%);
+  left: -47px;
+  top: 7px;
 }
 
 .description-product > .stars {
