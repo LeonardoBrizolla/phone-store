@@ -87,3 +87,20 @@
 .buy {
   display: inline-block;
 }
+
+@media (max-width: 1550px) {
+  .description-product {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .description-product > .title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .description-product .more {
+    margin-bottom: 2em;
+  }
+}
