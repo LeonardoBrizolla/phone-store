@@ -68,6 +68,12 @@
   transform-origin: bottom left;
 }
 
+@media (max-width: 1550px) {
+  .header-store {
+    margin-right: 60px;
+  }
+}
+
 @media (max-width: 1155px) {
   .header-store > .title {
     float: none;
@@ -100,6 +106,7 @@
 @media (max-width: 463px) {
   .header-store {
     margin-left: 1em;
+    margin-right: 0;
   }
 }
 

@@ -7,3 +7,12 @@
   vertical-align: middle;
   padding-left: 60px;
 }
+
+@media (max-width: 1550px) {
+  .photo-product {
+    display: block;
+    margin-right: 0;
+    border-radius: 0;
+    text-align: center;
+  }
+}
