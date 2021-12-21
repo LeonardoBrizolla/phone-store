@@ -88,6 +88,10 @@
 }
 
 @media (max-width: 981px) {
+  .header-store {
+    margin-bottom: 3em;
+  }
+
   .header-store .search {
     display: none;
   }
@@ -98,6 +102,10 @@
 }
 
 @media (max-width: 555px) {
+  .header-store {
+    margin-bottom: 1em;
+  }
+
   .header-store .actions {
     margin-left: 1em;
   }
