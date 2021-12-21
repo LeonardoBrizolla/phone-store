@@ -105,6 +105,15 @@
     left: 32px;
   }
 
+  .description-product > .stars {
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  .description-product > .avaliation {
+    float: right;
+  }
+
   .description-product .more {
     margin-bottom: 4em;
   }
@@ -118,7 +127,17 @@
 }
 
 @media (max-width: 430px) {
+  .description-product > .title {
+    margin-bottom: 10px;
+  }
+
   .description-product > .heart {
-    top: 41px;
+    position: static;
+    display: block;
+    text-align: center;
+    transform: none;
+    left: 0;
+    top: 0;
+    margin-bottom: 1em;
   }
 }

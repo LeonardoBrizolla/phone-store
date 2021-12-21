@@ -105,7 +105,7 @@
 
 @media (max-width: 463px) {
   .header-store {
-    margin-left: 1em;
+    margin-left: 0;
     margin-right: 0;
   }
 }

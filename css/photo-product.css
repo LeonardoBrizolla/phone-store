@@ -15,5 +15,16 @@
     border-radius: 0;
     text-align: center;
     margin-bottom: 3em;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .photo-product {
+    height: auto;
+  }
+
+  .photo-product > img {
+    width: 88%;
   }
 }
