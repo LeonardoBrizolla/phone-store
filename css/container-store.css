@@ -21,6 +21,7 @@
 @media (max-width: 1550px) {
   .container-store {
     padding-right: 0;
+    padding-bottom: 60px;
   }
 }
 
