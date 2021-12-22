@@ -1,20 +1,19 @@
-/*
-  JavaScript
-    - Comportamento;
-    - Interação;
-
-  1. Pegar janela
-  2. Pegar HTML -  DOM
-  3. Pagar coração
-  4. Adicionar evento de click + funcao ao coracao
-  5. Criar funcao handleClick
-  6. adicionar ao evento
-*/
-
-const $heart = window.document.querySelector('.heart');
+const $heart = document.querySelector('.hearts');
 
 $heart.addEventListener('click', handleClick);
 
 function handleClick() {
-  console.log('ae');
+  $heart.classList.toggle('-active');
 }
+
+const $stars = document.querySelectorAll('.star');
+
+$stars.forEach(($star) => {
+  $star.addEventListener('click', () => {
+    if ($star.src == 'http://localhost:5500/assets/star-unfill.png') {
+      $star.src = '../assets/star-fill.png';
+    } else {
+      $star.src = '../assets/star-unfill.png';
+    }
+  });
+});

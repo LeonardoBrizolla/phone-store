@@ -13,16 +13,30 @@
   margin-bottom: 50px;
 }
 
-.description-product > .heart {
+.description-product > .hearts {
   position: absolute;
   transform: translateX(-100%);
   left: -47px;
   top: 7px;
   cursor: pointer;
+  width: 33px;
+  height: 29px;
 }
 
-.description-product > .heart > img:hover {
-  transform: scale(1.2);
+.description-product > .hearts.-active .heart {
+  display: none;
+}
+
+.description-product > .hearts.-active .heart.-active {
+  display: inline-block;
+}
+
+.description-product .heart.-active {
+  display: none;
+}
+
+.description-product > .hearts > img:hover {
+  transform: scale(1.1);
 }
 
 .description-product > .stars {
@@ -101,7 +115,7 @@
     text-align: center;
   }
 
-  .description-product > .heart {
+  .description-product > .hearts {
     left: 32px;
   }
 
@@ -131,11 +145,12 @@
     margin-bottom: 10px;
   }
 
-  .description-product > .heart {
+  .description-product > .hearts {
     position: static;
-    display: block;
+    display: inline-block;
+    float: left;
     text-align: center;
-    transform: none;
+    transform: scale(0.8);
     left: 0;
     top: 0;
     margin-bottom: 1em;
