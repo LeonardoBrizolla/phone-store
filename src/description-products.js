@@ -1,19 +1,13 @@
 const $heart = document.querySelector('.hearts');
+const $star = document.querySelector('.star');
 
-$heart.addEventListener('click', handleClick);
+$heart.addEventListener('click', handleClickHeart);
+$star.addEventListener('click', handleClickStar);
 
-function handleClick() {
+function handleClickHeart() {
   $heart.classList.toggle('-active');
 }
 
-const $stars = document.querySelectorAll('.star');
-
-$stars.forEach(($star) => {
-  $star.addEventListener('click', () => {
-    if ($star.src == 'http://localhost:5500/assets/star-unfill.png') {
-      $star.src = '../assets/star-fill.png';
-    } else {
-      $star.src = '../assets/star-unfill.png';
-    }
-  });
-});
+function handleClickStar() {
+  $star.classList.toggle('-active');
+}
