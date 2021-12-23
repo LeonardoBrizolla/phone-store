@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/container-store.css" />
     <link rel="stylesheet" href="css/header-store.css" />
+    <link rel="stylesheet" href="css/input-search.css" />
     <link rel="stylesheet" href="css/photo-product.css" />
     <link rel="stylesheet" href="css/description-product.css" />
     <link rel="stylesheet" href="css/button-store.css" />
@@ -27,9 +28,26 @@
       <header class="header-store">
         <h1 class="title">Logo</h1>
         <nav class="navigation">
-          <input class="search" type="search" placeholder="Buscar" />
-          <img class="searchSVG" src="./assets/search.svg" alt="Busca" />
-          <img class="closeSVG" src="./assets/close.svg" alt="Fechar busca" />
+          <form class="input-search -active">
+            <input
+              class="content"
+              type="search"
+              placeholder="Buscar"
+              data-search
+            /><!--
+            --><input
+              class="icon -search"
+              type="image"
+              src="./assets/search.svg"
+              alt="Icon de lupa para buscar"
+            /><!--
+            --><input
+              class="icon -close"
+              type="image"
+              src="./assets/close.svg"
+              alt="Icone para fechar a busca"
+            />
+          </form>
           <a class="actions" href="#">Produtos</a>
           <a class="actions" href="#">Serviços</a>
           <a class="actions" href="#" data-cart>Carrinho (10)</a>

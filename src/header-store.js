@@ -1,6 +1,22 @@
-const $search = document.querySelector('[type=search]');
-const $searchSVG = document.querySelector('.searchSVG');
-const $closeSVG = document.querySelector('.closeSVG');
+const $search = document.querySelector('.input-search');
+const $searchContent = document.querySelector('[data-search]');
+const $iconSearch = document.querySelector('.icon.-search');
+const $iconClose = document.querySelector('.icon.-close');
 
-$searchSVG.addEventListener('click', () => $search.classList.add('-active'));
-$closeSVG.addEventListener('click', () => $search.classList.remove('-active'));
+$iconSearch.addEventListener('click', (event) => {
+  event.preventDefault();
+  $search.classList.add('-active');
+  $searchContent.focus();
+  $searchContent.select();
+});
+
+$iconClose.addEventListener('click', (event) => {
+  event.preventDefault();
+  $search.classList.remove('-active');
+  $searchContent.value = '';
+});
+
+// $searchContent.addEventListener('focusout', () => {
+//   $search.classList.remove('-active');
+//   $searchContent.value = '';
+// });
