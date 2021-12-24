@@ -1,22 +1,27 @@
-const $search = document.querySelector('.input-search');
-const $searchContent = document.querySelector('[data-search]');
-const $iconSearch = document.querySelector('.icon.-search');
-const $iconClose = document.querySelector('.icon.-close');
+const $inputSearch = document.querySelector('.input-search');
+const $content = $inputSearch.querySelector('.content');
+const $iconSearch = $inputSearch.querySelector('.icon.-search');
+const $iconClose = $inputSearch.querySelector('.icon.-close');
 
-$iconSearch.addEventListener('click', (event) => {
+$iconSearch.addEventListener('click', (event) => handleClickOpenSearch(event));
+$iconClose.addEventListener('click', (event) => handleClickCloseSearch(event));
+
+function handleClickOpenSearch(event) {
   event.preventDefault();
-  $search.classList.add('-active');
-  $searchContent.focus();
-  $searchContent.select();
-});
 
-$iconClose.addEventListener('click', (event) => {
+  $inputSearch.classList.add('-active');
+  $content.focus();
+  $content.select();
+}
+
+function handleClickCloseSearch(event) {
   event.preventDefault();
-  $search.classList.remove('-active');
-  $searchContent.value = '';
-});
 
-$searchContent.addEventListener('focusout', () => {
-  $search.classList.remove('-active');
-  $searchContent.value = '';
-});
+  $inputSearch.classList.remove('-active');
+  $content.value = '';
+
+  $content.addEventListener('focusout', () => {
+    $inputSearch.classList.remove('-active');
+    $content.value = '';
+  });
+}
