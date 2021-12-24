@@ -30,8 +30,8 @@
   .input-search {
     position: absolute;
     top: 0;
-    left: -356px;
-    transform: translateX(0px);
+    left: -358px;
+    transform: translateX(0);
     transition: all 200ms linear;
   }
 
@@ -47,7 +47,7 @@
   }
 
   .input-search.-active {
-    transform: translateX(89%);
+    transform: translateX(358px);
   }
 
   .input-search > .icon.-search,
@@ -63,5 +63,20 @@
   .input-search.-active > .icon.-search,
   .input-search > .icon.-close {
     display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .input-search {
+    left: 0px;
+    transform: translateX(calc(-100% + 40px));
+  }
+
+  .input-search.-active {
+    transform: translateX(0);
+  }
+
+  .input-search > .content {
+    width: 80vw;
   }
 }

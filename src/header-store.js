@@ -16,7 +16,7 @@ $iconClose.addEventListener('click', (event) => {
   $searchContent.value = '';
 });
 
-// $searchContent.addEventListener('focusout', () => {
-//   $search.classList.remove('-active');
-//   $searchContent.value = '';
-// });
+$searchContent.addEventListener('focusout', () => {
+  $search.classList.remove('-active');
+  $searchContent.value = '';
+});
