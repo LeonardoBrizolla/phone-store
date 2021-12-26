@@ -65,7 +65,7 @@
   transform-origin: bottom left;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1580px) {
   .header-store {
     margin-right: 60px;
   }

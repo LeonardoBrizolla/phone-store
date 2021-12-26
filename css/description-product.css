@@ -119,7 +119,7 @@
   display: inline-block;
 }
 
-@media (max-width: 1550px) {
+@media (max-width: 1580px) {
   .description-product {
     display: block;
     width: 60%;
