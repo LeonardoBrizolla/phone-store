@@ -48,18 +48,22 @@
               alt="Icone para fechar a busca"
             />
           </form>
-          <a class="actions" href="#">Produtos</a>
-          <a class="actions" href="#">Serviços</a>
-          <a class="actions" href="#" data-cart>Carrinho (10)</a>
+
+          <ul id="menu" class="list">
+            <li class="item -menu"><a class="menu" href="#menu">Menu</a></li>
+            <li class="item -second">
+              <a class="action" href="#">Produtos</a>
+            </li>
+            <li class="item"><a class="action" href="#">Serviços</a></li>
+            <li class="item">
+              <a class="action" href="#" data-cart>Carrinho (10)</a>
+            </li>
+          </ul>
         </nav>
       </header>
       <main>
         <figure class="photo-product">
-          <img
-            class="phonePNG"
-            src="assets/fone-1x.png"
-            alt="Headset Vermelho"
-          />
+          <img class="phonePNG" src="assets/fone.png" alt="Headset Vermelho" />
         </figure>
         <dl class="description-product">
           <dt class="title">Fone top, feliz e caro</dt>
@@ -140,8 +144,9 @@
         </dl>
       </main>
     </div>
+    <script src="src/header-store.js"></script>
+    <script src="src/input-search.js"></script>
     <script src="src/description-products.js"></script>
     <script src="src/home.js"></script>
-    <script src="src/header-store.js"></script>
   </body>
 </html>
